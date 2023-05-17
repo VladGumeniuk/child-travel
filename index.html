@@ -19,9 +19,9 @@
           </a>
           <nav class="header__menu">
             <ul class="header__list">
-              <li><a class="header__link" href="#">Зміни</a></li>
-              <li><a class="header__link" href="#">Батькам</a></li>
-              <li><a class="header__link" href="#">Відгуки</a></li>
+              <li><a data-id="0" class="header__link" href="#changes">Зміни</a></li>
+              <li><a data-id="1" class="header__link" href="#parents">Батькам</a></li>
+              <li><a data-id="2" class="header__link" href="#feedback">Відгуки</a></li>
               <li><a class="header__link" href="#">Фотогалерея</a></li>
               <li><a class="header__link" href="#">Контакти</a></li>
             </ul>
@@ -52,7 +52,7 @@
         <img class="hero__image01" src="./images/hero-img01.png" alt="img">
         <img class="hero__image02" src="./images/hero-img02.png" alt="img">
       </section>
-      <section class="summer section">
+      <section data-id="0" id="changes" class="summer section">
         <div class="container">
           <h3 class="title">ЛІТО 2023</h3>
           <ul class="summer__list fon01">
@@ -317,7 +317,7 @@
           </div>
         </div>
       </div>
-      <section class="services section">
+      <section data-id="1" id="parents" class="services section">
         <div class="container">
           <h3 class="title">СЕРВІС</h3>
           <ul class="services__list">
@@ -480,7 +480,7 @@
           </div>
         </div>
       </div>
-      <section class="feedback section">
+      <section data-id="2" id="feedback" class="feedback section">
         <div class="container">
           <h3 class="title">ВІДГУКИ БАТЬКІВ</h3>
           <div class="feedback__inner">
@@ -614,6 +614,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="./js/swiper.js"></script>
   <script src="./js/burger.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
