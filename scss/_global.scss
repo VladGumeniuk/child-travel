@@ -1,17 +1,41 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #070707;
+  font-family: "Gotham", sans-serif;
 }
+
 .container {
   max-width: $containerWidth + px;
   margin: 0 auto;
   padding: 0 $containerPadding + px;
 }
+
 .wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .main {
+  padding-top: 80px;
   flex-grow: 1;
+
+  @media (max-width: 830px) {
+    padding-top: 50px;
+  }
+}
+
+.section {
+  padding: 25px 0;
+
+  @media (max-width: 768px) {
+    padding: 15px 0;
+  }
+}
+
+.title {
+  font-family: 'Mart';
+  font-weight: 700;
+  @include adaptiv-value('font-size', 45, 28);
+  line-height: 1.1;
+  text-align: center;
+  color: #FE570B;
 }

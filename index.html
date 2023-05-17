@@ -5,17 +5,615 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hild TRAVEL</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header class="header"></header>
-    <main class="main"></main>
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <a class="header__logo" href="#">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li><a class="header__link" href="#">Зміни</a></li>
+              <li><a class="header__link" href="#">Батькам</a></li>
+              <li><a class="header__link" href="#">Відгуки</a></li>
+              <li><a class="header__link" href="#">Фотогалерея</a></li>
+              <li><a class="header__link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <a href="tel:380961673207" class="header__phone icon__phone">
+            <svg class="icon-phone">
+              <use xlink:href="./images/sprite.svg#icon-phone"></use>
+            </svg>
+            +38 096 167 3207
+          </a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <h1 class="hero__title">ДИТЯЧИЙ ТАБІР В КАРПАТАХ</h1>
+        <p class="hero__subtitle">для дітей 9-17 років</p>
+        <div class="hero__inner">
+          <img src="./images/hero-icon1.svg" alt="">
+          <a class="hero__btn" href="#popup">Забронювати</a>
+          <img src="./images/hero-icon2.svg" alt="">
+        </div>
+        <img class="hero__arrow" src="./images/arrow-hero.svg" alt="icon">
+        <img class="hero__arrow" src="./images/arrow-hero.svg" alt="icon">
+        <img class="hero__image01" src="./images/hero-img01.png" alt="img">
+        <img class="hero__image02" src="./images/hero-img02.png" alt="img">
+      </section>
+      <section class="summer section">
+        <div class="container">
+          <h3 class="title">ЛІТО 2023</h3>
+          <ul class="summer__list fon01">
+            <li class="summer__colums">
+              <img class="summer__image" src="./images/summer-img01.jpg" alt="img">
+            </li>
+            <li class="summer__colums">
+              <div class="summer__title">1 зміна</div>
+              <div class="summer__data">14.06 - 26.06</div>
+              <div class="summer__price">ЦІНА:</div>
+              <div class="summer__sum">15 500₴</div>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Що входить до вартості?</div>
+              <ul class="summer__sublist">
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Комфортне проживання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  П’ятиразове харчування
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Активні ігри
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Майстер-класи
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Професійна команда
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Спортивні змагання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Супровід керівників 24/7
+                </li>
+              </ul>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Як забронювати?</div>
+              <div>
+                <a class="summer__phone" href="tel:380963293232">+38 096 329 3232</a>
+              </div>
+              <div>
+                <a class="summer__btn" href="#popup">Забронювати</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="summer__list fon02">
+            <li class="summer__colums">
+              <img class="summer__image" src="./images/summer-img02.jpg" alt="img">
+            </li>
+            <li class="summer__colums">
+              <div class="summer__title">2 зміна</div>
+              <div class="summer__data">12.07 - 24.07</div>
+              <div class="summer__broke">діє знижка раннього бронювання</div>
+              <div class="summer__sum"><span>11 700₴</span></div>
+              <div class="summer__oldsum">12 800₴</div>
+              <div class="summer__copy">
+                тРАНСФЕР ОПЛАЧУЄТЬСЯ ДОДАТКОВО
+                вАРІСТЬ: 1 500₴
+              </div>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Що входить до вартості?</div>
+              <ul class="summer__sublist">
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Комфортне проживання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  П’ятиразове харчування
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Активні ігри
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Майстер-класи
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Професійна команда
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Спортивні змагання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Супровід керівників 24/7
+                </li>
+              </ul>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Як забронювати?</div>
+              <div>
+                <a class="summer__phone" href="tel:380963293232">+38 096 329 3232</a>
+              </div>
+              <div>
+                <a class="summer__btn summer__btn-color" href="#popup">Забронювати</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="summer__list fon03">
+            <li class="summer__colums">
+              <img class="summer__image" src="./images/summer-img03.jpg" alt="img">
+            </li>
+            <li class="summer__colums">
+              <div class="summer__title">3 зміна</div>
+              <div class="summer__data">16.08 - 28.08</div>
+              <div class="summer__broke">діє знижка раннього бронювання</div>
+              <div class="summer__sum"><span>11 700₴</span></div>
+              <div class="summer__oldsum">12 800₴</div>
+              <div class="summer__copy">
+                тРАНСФЕР ОПЛАЧУЄТЬСЯ ДОДАТКОВО
+                вАРІСТЬ: 1 500₴
+              </div>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Що входить до вартості?</div>
+              <ul class="summer__sublist">
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Комфортне проживання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  П’ятиразове харчування
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Активні ігри
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Майстер-класи
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Професійна команда
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Спортивні змагання
+                </li>
+                <li class="summer__text">
+                  <img src="./images/done.svg" alt="icon">
+                  Супровід керівників 24/7
+                </li>
+              </ul>
+            </li>
+            <li class="summer__colums">
+              <div class="summer__subtitle">Як забронювати?</div>
+              <div>
+                <a class="summer__phone" href="tel:380963293232">+38 096 329 3232</a>
+              </div>
+              <div>
+                <a class="summer__btn summer__btn-color" href="#popup">Забронювати</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="offer section">
+        <div class="container">
+          <h3 class="title">МИ ПРОПОНУЄМО</h3>
+          <ul class="offer__list">
+            <li class="offer__cards">
+              <div class="offer__image">
+                <img src="./images/offer01.jpg" alt="img">
+              </div>
+              <div class="offer__content">
+                <div class="offer__title">Територія</div>
+                <div class="offer__text">
+                  Наша територія розташована в чарівних Карпатах, які сповнені пригод і краси. Тут діти зможуть
+                  насолодитися неймовірними
+                  природними пейзажами та відчути чарівну атмосферу гірського ландшафту. На території знаходиться
+                  готель,
+                  де діти зможуть
+                  з комфортом проживати та відпочивати. Крім того, наша територія має ресторан, альтанки та зону для
+                  барбекю, де діти
+                  зможуть смачно поїсти та провести час з друзями в затишній атмосфері.
+                </div>
+              </div>
+            </li>
+            <li class="offer__cards">
+              <div class="offer__image">
+                <img src="./images/offer02.jpg" alt="img">
+              </div>
+              <div class="offer__content">
+                <div class="offer__title">Готель</div>
+                <div class="offer__text">
+                  Проживання дітей в нашому двоповерховому готелі - це комфорт та зручність. Кожна кімната призначена
+                  для
+                  2-3 дітей,
+                  забезпечуючи їм простір та приватність. Хлопчики та дівчата розміщені окремо, дозволяючи їм відчувати
+                  себе комфортно та
+                  безпечно. Кожна кімната оснащена всім необхідним, включаючи санвузол та шафу для зберігання речей.
+                </div>
+              </div>
+            </li>
+            <li class="offer__cards">
+              <div class="offer__image">
+                <img src="./images/offer03.jpg" alt="img">
+              </div>
+              <div class="offer__content">
+                <div class="offer__title">Харчування</div>
+                <div class="offer__text">
+                  Для дітей в нашому таборі передбачено п'ять прийомів їжі на день, включаючи сніданок, обід, вечерю та
+                  два перекуси.
+                  Перекуси складаються з свіжих фруктів, ягід, цільнозернових крекерів та кисло-молочних продуктів, що
+                  гарантує
+                  різноманітність та корисність раціону.
+                </div>
+              </div>
+            </li>
+            <li class="offer__cards">
+              <div class="offer__image">
+                <img src="./images/offer04.jpg" alt="img">
+              </div>
+              <div class="offer__content">
+                <div class="offer__title">Активний відпочинок</div>
+                <div class="offer__text">
+                  Наша територія пропонує безліч можливостей для активного відпочинку. Тут ви знайдете новий басейн для
+                  освіжаючих занять
+                  у воді, батут для веселого стрибка та площадку з сігвеями для випробування своєї вправності. Також є
+                  різноманітні
+                  спортивні локації, такі як футбол, бадмінтон, фрісбі та настільний теніс, щоб кожен знайшов собі
+                  розвагу
+                  за своїм
+                  смаком.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="contacts bg-color01">
+        <div class="container">
+          <div class="contacts__inner">
+            <div class="contacts__content">
+              <div class="contacts__title">ОБИРАЙ КРУТЕЗНИЙ ВІДПОЧИНОК В КАРПАТАХ РАЗОМ З НАМИ</div>
+              <a href="#popup" class="contacts__phone">Замовити дзвінок</a>
+              <a href="" class="contacts__telegram">
+                <img src="./images/telegram.svg" alt="tg">
+                Зв’язатись в Telegram
+              </a>
+            </div>
+            <div class="contacts__image">
+              <img src="./images/contacts01.png" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="services section">
+        <div class="container">
+          <h3 class="title">СЕРВІС</h3>
+          <ul class="services__list">
+            <li class="services__item">
+              <img src="./images/icons/services01.svg" alt="icon">
+              Якісний відпочинок
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services02.svg" alt="icon">
+              Майстер-класи
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services03.svg" alt="icon">
+              Високопрофесійний колектив
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services04.svg" alt="icon">
+              Щоденний огляд медичного працівника
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services05.svg" alt="icon">
+              Охорона табору 24/7
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services06.svg" alt="icon">
+              Смачне здорове харчування
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services07.svg" alt="icon">
+              Щоденні фотозвіти із занять та ігор дітей
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services08.svg" alt="icon">
+              Позитивне та креативне середовище для розвитку
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services09.svg" alt="icon">
+              Ігри на комунікативність
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services10.svg" alt="icon">
+              Прибирання в кімнатах
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services11.svg" alt="icon">
+              Настільні ігри
+            </li>
+            <li class="services__item">
+              <img src="./images/icons/services12.svg" alt="icon">
+              Сучасні методики, які розкривають таланти та здібності кожної дитини
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="active section">
+        <div class="container">
+          <h3 class="title">АКТИВНИЙ ВІДПОЧИНОК</h3>
+          <ul class="active__list">
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Футбол
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Естафети
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Інтерактивні ігри
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Баскетбол
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Арт-гурток
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Цікаві тренінги
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Настільний теніс
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Хореографія
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Пейнтбол(влітку)
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Сігвеї
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Вокальні заняття
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Басейн
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              X-BOX/Play Station
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Творчі заходи
+            </li>
+            <li class="active__item">
+              <img src="./images/icons/active-icons.svg" alt="icon">
+              Батут
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="collective section">
+        <div class="container">
+          <h3 class="title">ПРО КОЛЕКТИВ</h3>
+          <div class="collective__inner">
+            <div class="collective__image">
+              <img src="./images/collective.jpg" alt="img">
+            </div>
+            <ul class="collective__content">
+              <li class="collective__text">
+                <img src="./images/icons/yes.svg" alt="icon">
+                індивідувальний підхід до кожної дитини
+              </li>
+              <li class="collective__text">
+                <img src="./images/icons/yes.svg" alt="icon">
+                створюють атмосферу тепла, добра, любові
+              </li>
+              <li class="collective__text">
+                <img src="./images/icons/yes.svg" alt="icon">
+                мега круті, творчі, креативні та сучасні
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="contacts bg-color02">
+        <div class="container">
+          <div class="contacts__inner">
+            <div class="contacts__image">
+              <img src="./images/contacts02.png" alt="img">
+            </div>
+            <div class="contacts__content">
+              <div class="contacts__title"><span>ЗАЛИШИЛИСЬ ПИТАННЯ? ЗАМОВЛЯЙТЕ КОНСУЛЬТАЦІЮ</span></div>
+              <a href="#popup" class="contacts__phone">Замовити дзвінок</a>
+              <a href="" class="contacts__telegram">
+                <img src="./images/telegram.svg" alt="tg">
+                Зв’язатись в Telegram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="feedback section">
+        <div class="container">
+          <h3 class="title">ВІДГУКИ БАТЬКІВ</h3>
+          <div class="feedback__inner">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Анастасія Іванівна
+                    </div>
+                    <div class="feedback__text">
+                      Дякуємо дитячому табору за незабутній досвід! Наша дитина вдосконалила свої навички і розвинула
+                      соціальні навички. Ми
+                      рекомендуємо цей табір іншим батькам
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Олена Петрівна
+                    </div>
+                    <div class="feedback__text">
+                      Наша дитина провела неймовірні два тижні в дитячому таборі. Вона навчилася багатьом новим навичкам
+                      і знайшла нових
+                      друзів. Ми впевнені, що повернемося сюди наступного літа
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Олександр Ігорович
+                    </div>
+                    <div class="feedback__text">
+                      Наша дитина провела неймовірний час в дитячому таборі. Вона мала можливість спробувати багато
+                      різних речей і знайшла
+                      нових друзів. Ми не можемо дочекатися, щоб повернутися сюди наступного року
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Катерина Михайлівна
+                    </div>
+                    <div class="feedback__text">
+                      Табір був просто чудовий! Наша дитина повернулася з ним так щаслива. Вона провела незабутній час,
+                      навчилася багатьом
+                      речам і зробила чудові знайомства. Ми рекомендуємо цей табір всім батькам
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Марина Сергіївна
+                    </div>
+                    <div class="feedback__text">
+                      Дитячий табір перевершив наші очікування! Наша дитина отримала багато пригод, вчилася новим речам
+                      і розквітла у дружній
+                      атмосфері. Ми щасливі, що обрали цей табір для своєї дитини
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__user">
+                      <img src="./images/user01.png" alt="user">
+                      Михайло Вікторович
+                    </div>
+                    <div class="feedback__text">
+                      Наша дитина любила кожну мить у цьому таборі! Він був добре організований, з веселими активностями
+                      і дружнім персоналом.
+                      Ми впевнені, що наша дитина повернеться туди наступного року
+                    </div>
+                    <img class="feedback__image" src="./images/icons/feedback-icon.svg" alt="icon">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
   </div>
+  <div id="popup" class="popup">
+    <a href="##" class="popup__area"></a>
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <a class="popup__close" href="##">X</a>
+        <div class="popup__image">
+          <img src="./images/anketa.png" alt="">
+        </div>
+        <form id="form" class="anketa" action="#">
+          <div class="anketa__title">Залишити заявку</div>
+          <ul class="anketa__list">
+            <li>
+              <label for="formName">Ім'я*</label>
+              <input id="formName" type="text" name="name" class="anketa__input _req">
+            </li>
+            <li>
+              <label for="formPhone">Номер телефону*</label>
+              <input id="formPhone" type="tel" name="phone" class="anketa__input _req">
+            </li>
+            <li>
+              <label for="formAge">Вік дитини</label>
+              <input id="formAge" type="number" name="age" class="anketa__input">
+            </li>
+          </ul>
+          <button type="submit" class="anketa__btn">Забронювати</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
-  <script src="js/burger.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/burger.js"></script>
 </body>
 
 </html>
