@@ -491,10 +491,12 @@ body {
 
 .summer__submit.sell {
   background: #9C9C9C;
+  cursor: pointer;
 }
 
 .summer__detali.sell {
   color: #9C9C9C;
+  cursor: pointer;
 }
 .summer__detali.sell img {
   opacity: 0.3;
