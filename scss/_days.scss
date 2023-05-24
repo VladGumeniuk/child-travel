@@ -1,0 +1,91 @@
+.days {
+
+    // .days__list
+
+    &__list {
+        max-width: 979px;
+        margin: 55px auto 0 auto;
+
+        @media (max-width: 768px) {
+            margin: 25px auto 0 auto;
+        }
+    }
+
+    // .days__item
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        justify-content: end;
+    }
+
+    // .days__time
+
+    &__time {
+        font-weight: 500;
+        @include adaptiv-value('font-size', 32, 16);
+        line-height: 1.1;
+        text-align: right;
+        color: #000000;
+
+        span {
+            @media (max-width: 931px) {
+                display: none;
+            }
+        }
+    }
+
+    // .days__icon
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+
+        img {
+            @media (max-width: 768px) {
+                width: 40px;
+            }
+        }
+    }
+
+    // .days__text
+
+    &__text {
+        width: 540px;
+        font-weight: 500;
+        @include adaptiv-value('font-size', 28, 16);
+        line-height: 1.1;
+        color: #000000;
+    }
+}
+
+.line-left,
+.line-right {
+    display: flex;
+    @include adaptiv-value('width', 50, 25);
+    height: 2px;
+    background-color: #00BD4E;
+}
+
+.line-right {
+    position: relative;
+}
+
+.line-left::after,
+.line-right::after {
+    content: "";
+    display: block;
+    margin-top: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00BD4E;
+}
+
+.line-right::after {
+    content: "";
+    position: absolute;
+    right: 0;
+}
