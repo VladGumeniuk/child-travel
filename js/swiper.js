@@ -20,3 +20,21 @@ const swiper = new Swiper(".mySwiper", {
         },
     },
 });
+
+const mySwiper = new Swiper(".mySwiperOffer", {
+    loop: true,
+    speed: 1500,
+    freeMode: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

@@ -1,31 +1,31 @@
-.swiper {
+.feedback__inner .swiper {
     // padding-bottom: 15px;
     padding: 40px;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.feedback__inner .swiper-button-next,
+.feedback__inner .swiper-button-prev {
     background: #000;
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-.swiper-button-prev {
+.feedback__inner .swiper-button-prev {
     left: 0px;
 }
 
-.swiper-button-next {
+.feedback__inner .swiper-button-next {
     right: 0px;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
+.feedback__inner .swiper-button-next:after,
+.feedback__inner .swiper-button-prev:after {
     font-size: 15px;
     color: #fff;
 }
 
-.swiper-pagination-bullet-active {
+.feedback__inner .swiper-pagination-bullet-active {
     background-color: $colorText;
 }
 

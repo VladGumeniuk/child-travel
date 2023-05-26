@@ -5,7 +5,7 @@
     &__list {
         margin-top: 55px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 55px;
 
         @media (max-width: 768px) {
@@ -25,7 +25,7 @@
     &__image {
         img {
             border-radius: 30px 30px 0 0;
-            max-width: 100%;
+            width: 100%;
         }
     }
 
@@ -125,19 +125,5 @@
         span {
             color: #00BD4E;
         }
-    }
-}
-
-.summer__submit.sell {
-    background: #9C9C9C;
-    cursor: pointer;
-}
-
-.summer__detali.sell {
-    color: #9C9C9C;
-    cursor: pointer;
-
-    img {
-        opacity: 0.3;
     }
 }
