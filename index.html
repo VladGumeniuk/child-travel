@@ -22,8 +22,8 @@
               <li><a data-id="0" class="header__link" href="#changes">Зміни</a></li>
               <li><a data-id="1" class="header__link" href="#parents">Батькам</a></li>
               <li><a data-id="2" class="header__link" href="#feedback">Відгуки</a></li>
-              <li><a class="header__link" href="#">Фотогалерея</a></li>
-              <li><a class="header__link" href="#">Контакти</a></li>
+              <li><a data-id="3" class="header__link" href="#gallery">Фотогалерея</a></li>
+              <li><a data-id="4" class="header__link" href="#contacts">Контакти</a></li>
             </ul>
           </nav>
           <a href="tel:380961673207" class="header__phone icon__phone">
@@ -40,7 +40,11 @@
     </header>
     <main class="main">
       <section class="hero">
-        <h1 class="hero__title">ДИТЯЧИЙ ТАБІР В КАРПАТАХ</h1>
+        <h1 class="hero__title">
+          ДИТЯЧИЙ ТАБІР В КАРПАТАХ
+          <img src="./images/icon01.svg" alt="icon" class="icon-header-1">
+          <img src="./images/icon02.svg" alt="icon" class="icon-header-2">
+        </h1>
         <p class="hero__subtitle">для дітей 9-17 років</p>
         <div class="hero__inner">
           <img src="./images/hero-icon1.svg" alt="">
@@ -87,77 +91,314 @@
           </div>
         </div>
       </section>
-      <section class="offer section">
-        <div class="container">
-          <h3 class="title">МИ ПРОПОНУЄМО</h3>
-          <ul class="offer__list">
-            <li class="offer__card">
-              <div class="offer__image">
-                <img src="./images/offer01.jpg" alt="img">
-              </div>
-              <div class="offer__content">
-                <div class="offer__title">Територія</div>
-                <div class="offer__text">
-                  Наша територія розташована в чарівних Карпатах, які сповнені пригод і краси. Тут діти зможуть
-                  насолодитися неймовірними
-                  природними пейзажами та відчути чарівну атмосферу гірського ландшафту. На території знаходиться
-                  готель, де діти зможуть
-                  з комфортом проживати та відпочивати. Крім того, наша територія має ресторан, альтанки та зону для
-                  барбекю, де діти
-                  зможуть смачно поїсти та провести час з друзями в затишній атмосфері.
+      <div class="section">
+        <div class="container" style="position: relative;">
+          <img class="icon-offer" src="./images/offer-icon.svg" alt="icon">
+          <h3 class="title" style="margin-bottom: 20px;">
+            МИ ПРОПОНУЄМО
+          </h3>
+          <div class="inner">
+            <div class="swiper offer">
+              <div class="swiper-wrapper" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/karpaty1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/karpaty2.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/karpaty3.jpg" alt="img">
                 </div>
               </div>
-            </li>
-            <li class="offer__card">
-              <div class="offer__image">
-                <img src="./images/offer02.jpg" alt="img">
-              </div>
-              <div class="offer__content">
-                <div class="offer__title">Готель</div>
-                <div class="offer__text">
-                  Проживання дітей в нашому двоповерховому готелі - це комфорт та зручність. Кожна кімната призначена
-                  для 2-3 дітей,
-                  забезпечуючи їм простір та приватність. Хлопчики та дівчата розміщені окремо, дозволяючи їм відчувати
-                  себе комфортно та
-                  безпечно. Кожна кімната оснащена всім необхідним, включаючи санвузол та шафу для зберігання речей.
-                </div>
-              </div>
-            </li>
-            <li class="offer__card">
-              <div class="offer__image">
-                <img src="./images/offer03.jpg" alt="img">
-              </div>
-              <div class="offer__content">
-                <div class="offer__title">Харчування</div>
-                <div class="offer__text">
-                  Для дітей в нашому таборі передбачено п'ять прийомів їжі на день, включаючи сніданок, обід, вечерю та
-                  два перекуси.
-                  Перекуси складаються з свіжих фруктів, ягід, цільнозернових крекерів та кисло-молочних продуктів, що
-                  гарантує
-                  різноманітність та корисність раціону.
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="content">
+              <h4 class="content__title">Мальовничі краєвиди</h4>
+              <div class="content__text">
+                <p>
+                  Ласкаво просимо до нашого комплексу, розташованого в самому серці Карпатського лісу. Наша унікальна
+                  локація дарує
+                  незабутні враження та натхнення, окутуючи вас неймовірно мальовничими пейзажами та кришталево чистим
+                  повітрям.
+                </p>
 
+                <p>
+                  Знаходження нашого комплексу в Карпатському лісі також надає можливість для активного відпочинку та
+                  спортивних заходів.
+                  Ви зможете насолоджуватися піших прогулянках, велосипедних поїздках або організувати пікнік на
+                  природі. Кожен момент у
+                  нашій локації пронизаний свіжістю та енергією природи, що надихає вас на нові враження та дослідження.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="content order">
+              <h4 class=" content__title">Затишний готель</h4>
+              <div class="content__text">
+                <p>
+                  В ресторані готельного комплексу розробили спеціальне меню для дітей шкільного віку,
+                  яке складається зі страв
+                  гуцульської та європейської кухні, приготовлених з використанням натуральних
+                  продуктів, які вирощуються неподалік від
+                  готелю і не містять шкідливих речовин.
+
+                </p>
+
+                <p>
+                  Для дітей у таборі передбачено 5 прийомів їжі на день, які включають сніданок, обід,
+                  вечерю та два перекуси. Перекуси
+                  складаються зі свіжих фруктів, ягід, цільнозернових крекерів та кисло-молочних
+                  продуктів, що забезпечує різноманітність
+                  і корисність раціону. Всі страви складено з метою забезпечити дітям смачне та
+                  здорове харчування, яке допомагає
+                  підтримувати їхнє здоров'я та енергію на цілий день.
+                </p>
+
+              </div>
+            </div>
+            <div class="swiper offer order2">
+              <div class="swiper-wrapper content__image" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/hotel1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/hotel2.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/hotel3.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/hotel4.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/hotel5.jpg" alt="img">
                 </div>
               </div>
-            </li>
-            <li class="offer__card">
-              <div class="offer__image">
-                <img src="./images/offer04.jpg" alt="img">
-              </div>
-              <div class="offer__content">
-                <div class="offer__title">Активний відпочинок</div>
-                <div class="offer__text">Наша територія пропонує безліч можливостей для активного відпочинку. Тут ви
-                  знайдете новий басейн для освіжаючих занять
-                  у воді, батут для веселого стрибка та площадку з сігвеями для випробування своєї вправності. Також є
-                  різноманітні
-                  спортивні локації, такі як футбол, бадмінтон, фрісбі та настільний теніс, щоб кожен знайшов собі
-                  розвагу за своїм
-                  смаком.</div>
-              </div>
-            </li>
-          </ul>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="swiper offer">
+              <div class="swiper-wrapper" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/territory1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/territory2.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/territory3.jpg" alt="img">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="content">
+              <h4 class="content__title">Чудова інфраструктура</h4>
+              <div class="content__text">
+                <p>
+                  Готельний комплекс пропонує безліч можливостей для активного відпочинку. Новий басейн, батут, площадка
+                  для катання на
+                  сігвеях, а також великий простір для проведення різноманітних квестів.
+                </p>
+
+                <p>
+                  Поряд з територією є футбольне поле, на якому ми з великим задоволенням будемо проводити різноманітні
+                  матчі.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="content order">
+              <h4 class=" content__title">Комфортні кімнати</h4>
+              <div class="content__text">
+                <p>
+                  Охорона та безпека є невід'ємною частиною нашого табору. Наша територія обладнана спеціальною
+                  огородженою системою, що
+                  допомагає забезпечити контрольований доступ до табірної зони. Наші досвідчені працівники охорони
+                  забезпечують постійний
+                  обхід табірної території протягом доби.
+                </p>
+
+                <p>
+                  Наш особливий підхід до безпеки полягає у тому, що керівники табору проживають в одному корпусі з
+                  дітьми. Вони
+                  піклуються про дотримання правил безпеки, контролюють та сприяють створенню позитивного та дружнього
+                  середовища для всіх
+                  учасників табору.
+                </p>
+
+              </div>
+            </div>
+            <div class="swiper offer order2">
+              <div class="swiper-wrapper content__image" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/room1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/room2.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/room3.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/room4.jpg" alt="img">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="swiper offer">
+              <div class="swiper-wrapper" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/eat1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/eat2.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/eat3.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/eat4.jpg" alt="img">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="content">
+              <h4 class="content__title">Збалансоване харчування</h4>
+              <div class="content__text">
+                <p>
+                  Комплекс розташований в самому серці Карпатського лісу, що дарує можливість насолоджуватися неймовірно
+                  мальовничими
+                  пейзажами і дихати.
+                  Табір знаходиться в буферній зоні, що означає дійсно безпечний відпочинок.
+                </p>
+
+                <p>
+                  Діти, проживатимуть в кімнатах по 4 особи. У кожному номері є шафа для зберігання одягу, а також
+                  балкон з видом на гори.
+                  Крім того, у номерах є окрема ванна кімната з умивальником, туалетом і душовою кабіною. Усі номери
+                  обладнані постільною
+                  білизною та феном, все необхідне для комфортного перебування.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="content order">
+              <h4 class=" content__title">Безпечний відпочинок</h4>
+              <div class="content__text">
+                <p>
+                  Охорона та безпека є невід'ємною частиною нашого табору. Наша територія обладнана спеціальною
+                  огородженою системою, що
+                  допомагає забезпечити контрольований доступ до табірної зони. Наші досвідчені працівники охорони
+                  забезпечують постійний
+                  обхід табірної території протягом доби.
+                </p>
+
+                <p>
+                  Наш особливий підхід до безпеки полягає у тому, що керівники табору проживають в одному корпусі з
+                  дітьми. Вони
+                  піклуються про дотримання правил безпеки, контролюють та сприяють створенню позитивного та дружнього
+                  середовища для всіх
+                  учасників табору.
+                </p>
+
+              </div>
+            </div>
+            <div class="swiper offer order2">
+              <div class="swiper-wrapper content__image" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/seсurity1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/seсurity2.jpg" alt="img">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="inner">
+            <div class="swiper offer">
+              <div class="swiper-wrapper" style="max-width: 900px; margin: 0 auto;">
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/med1.jpg" alt="img">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper__image" src="./images/gallery/med2.jpg" alt="img">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="content">
+              <h4 class="content__title">Медичне обслуговування</h4>
+              <div class="content__text">
+                <p>
+                  Комплекс розташований в самому серці Карпатського лісу, що дарує можливість насолоджуватися неймовірно
+                  мальовничими
+                  пейзажами і дихати.
+                  Табір знаходиться в буферній зоні, що означає дійсно безпечний відпочинок.
+                </p>
+
+                <p>
+                  Діти, проживатимуть в кімнатах по 4 особи. У кожному номері є шафа для зберігання одягу, а також
+                  балкон з видом на гори.
+                  Крім того, у номерах є окрема ванна кімната з умивальником, туалетом і душовою кабіною. Усі номери
+                  обладнані постільною
+                  білизною та феном, все необхідне для комфортного перебування.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="contacts bg-color01">
+        <img src="./images/contacks-icon.svg" alt="icon" class="icon-contacks">
         <div class="container">
           <div class="contacts__inner">
             <div class="contacts__content">
@@ -176,6 +417,7 @@
       </div>
       <section data-id="1" id="parents" class="services section">
         <div class="container">
+          <img class="icon-services" src="./images/services-icon.svg" alt="icon">
           <h3 class="title">СЕРВІС</h3>
           <ul class="services__list">
             <li class="services__item">
@@ -231,7 +473,8 @@
       </section>
       <section class="active section">
         <div class="container">
-          <h3 class="title">АКТИВНИЙ ВІДПОЧИНОК</h3>
+          <img class="icon-active" src="./images/summer-icon.svg" alt="icon">
+          <h3 class="title active__title">АКТИВНИЙ ВІДПОЧИНОК</h3>
           <ul class="active__list">
             <li class="active__item">
               <img src="./images/icons/active-icons.svg" alt="icon">
@@ -320,7 +563,7 @@
           </div>
         </div>
       </section>
-      <div class="contacts bg-color02">
+      <div data-id="4" id="contacts" class="contacts bg-color02">
         <div class="container">
           <div class="contacts__inner">
             <div class="contacts__image">
@@ -337,6 +580,117 @@
           </div>
         </div>
       </div>
+      <section class="info section">
+        <div class="container">
+          <h3 class="title">ІНФОРМАЦІЯ ДЛЯ БАТЬКІВ</h3>
+          <h4 class="info__subtitle">ЩО БРАТИ З СОБОЮ?</h4>
+          <div class="info__name-list">Документи:</div>
+          <ul class="info__document">
+            <li class="info__document-text">
+              <img src="./images/icons/document-arrow.svg" alt="icon">
+              <span>
+                Копія свідоцтва про народження
+              </span>
+            </li>
+            <li class="info__document-text">
+              <img src="./images/icons/document-arrow.svg" alt="icon">
+              <span>
+                Роздруковані документи, які надсилаємо в телеграм канал
+              </span>
+            </li>
+            <li class="info__document-text">
+              <img src="./images/icons/document-arrow.svg" alt="icon">
+              <span>
+                По бажанню, можна взяти з собою кишенькові кошти (на території є маленький магазин, є змога купити
+                морозиво та інші
+                смаколики - після обіду звичайно)
+              </span>
+            </li>
+          </ul>
+          <div class="info__name-list">Які речі брати з собою в табір?</div>
+          <ul class="info__things">
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Зручний повсякденний одяг та взуття</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Купальник / плавки</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Головний убір (обов’язково)</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Теплий одяг (ввечері може бути прохолодно)</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Рушники (для тіла + окремо для басейну)</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Засоби від комарів</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Нижня білизна + носочки + піжама</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Гумові капці</span>
+            </li>
+            <li class="info__things-text">
+              <img src="./images/icons/things-arrow.svg" alt="icon">
+              <span>Дощовичок</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="question">
+        <div class="container">
+          <h2 class="title">Питання - відповіді:</h2>
+          <ul class="question__list">
+            <li>
+              <button class="question__btn">
+                Чи потрібно брати довідки у лікаря?
+              </button>
+              <div class="question__text">
+                Ні, всі документи Ви заповнюєте самостійно.
+              </div>
+            </li>
+            <li>
+              <button class="question__btn">
+                Чи ведеться відео/фото зйомка під час зміни?
+              </button>
+              <div class="question__text">
+                Так, для цього ми створюємо спеціальний телеграм канал, щоб батьки бачили - що ми робимо протягом дня)
+              </div>
+            </li>
+            <li>
+              <button class="question__btn">
+                Чи забираєте телефони?
+              </button>
+              <div class="question__text">
+                НІ, адже наша головна задача зробити так, щоб дітки самостійно забували про телефони, знаходячись в
+                постійній цікавій
+                занятості.
+              </div>
+            </li>
+            <li>
+              <button class="question__btn">
+                Чи потрібні гроші в таборі?
+              </button>
+              <div class="question__text">
+                За бажанням, можна дати кишенькові кошти, так як на території є магазинчик де можна придбати морозиво,
+                та інші
+                смаколики.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section data-id="2" id="feedback" class="feedback section">
         <div class="container">
           <h3 class="title">ВІДГУКИ БАТЬКІВ</h3>
@@ -563,35 +917,118 @@
           </ul>
         </div>
       </section>
-      <section class="gallery section">
+      <section data-id="3" id="gallery" class="gallery section">
         <h3 class="title">ФОТОГАЛЕРЕЯ</h3>
         <div class="swiper myGallery">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="gallery__rows01"><img src="./images/gallery/1.jpg" alt="img"></div>
-              <div><img src="./images/gallery/2.jpg" alt="img"></div>
+              <div class="gallery__rows01 gallery__card">
+                <img data-id="0" src="./images/gallery/photogallery/1.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="1" src="./images/gallery/photogallery/2.jpg" alt="img">
+              </div>
             </div>
             <div class="swiper-slide">
-              <div class="gallery__rows01" style="margin-top: 50px;"><img src="./images/gallery/3.jpg" alt="img"></div>
-              <div><img src="./images/gallery/4.jpg" alt="img"></div>
+              <div class="gallery__rows01 gallery__card" style="margin-top: 50px;">
+                <img data-id="2" src="./images/gallery/photogallery/3.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="3" src="./images/gallery/photogallery/4.jpg" alt="img">
+              </div>
             </div>
             <div class="swiper-slide">
-              <div class="gallery__rows01"><img src="./images/gallery/5.jpg" alt="img"></div>
-              <div><img src="./images/gallery/6.jpg" alt="img"></div>
+              <div class="gallery__rows01 gallery__card">
+                <img data-id="4" src="./images/gallery/photogallery/5.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="5" src="./images/gallery/photogallery/6.jpg" alt="img">
+              </div>
             </div>
             <div class="swiper-slide">
-              <div class="gallery__rows01" style="margin-top: 50px;"><img src="./images/gallery/7.jpg" alt="img"></div>
-              <div><img src="./images/gallery/8.jpg" alt="img"></div>
+              <div class="gallery__rows01 gallery__card" style="margin-top: 50px;">
+                <img data-id="6" src="./images/gallery/photogallery/7.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="7" src="./images/gallery/photogallery/8.jpg" alt="img">
+              </div>
             </div>
             <div class="swiper-slide">
-              <div class="gallery__rows01"><img src="./images/gallery/9.jpg" alt="img"></div>
-              <div><img src="./images/gallery/10.jpg" alt="img"></div>
+              <div class="gallery__rows01 gallery__card">
+                <img data-id="8" src="./images/gallery/photogallery/9.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="9" src="./images/gallery/photogallery/10.jpg" alt="img">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__rows01 gallery__card" style="margin-top: 50px;">
+                <img data-id="10" src="./images/gallery/photogallery/11.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="11" src="./images/gallery/photogallery/12.jpg" alt="img">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__rows01 gallery__card">
+                <img data-id="12" src="./images/gallery/photogallery/13.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="13" src="./images/gallery/photogallery/14.jpg" alt="img">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__rows01 gallery__card" style="margin-top: 50px;">
+                <img data-id="14" src="./images/gallery/photogallery/15.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="15" src="./images/gallery/photogallery/16.jpg" alt="img">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__rows01 gallery__card">
+                <img data-id="16" src="./images/gallery/photogallery/17.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="17" src="./images/gallery/photogallery/18.jpg" alt="img">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery__rows01 gallery__card" style="margin-top: 50px;">
+                <img data-id="18" src="./images/gallery/photogallery/19.jpg" alt="img">
+              </div>
+              <div class="gallery__card">
+                <img data-id="19" src="./images/gallery/photogallery/20.jpg" alt="img">
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__image">
+            <img src="./images/footer-img.jpg" alt="img">
+          </div>
+          <div class="footer__content">
+            <div class="footer__title">контакти</div>
+            <div>
+              <a href="tel:380963293232:" class="footer__tel">+380 96 329 3232</a>
+            </div>
+            <div>
+              <a href="mailto:teenagercamp@gmail.com" class="footer__email">teenagercamp@gmail.com</a>
+            </div>
+            <div>
+              <a href="" class="contacts__telegram">
+                <img src="./images/telegram.svg" alt="tg">
+                Зв’язатись в Telegram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
   <div id="popup" class="popup">
     <a href="##" class="popup__area"></a>
@@ -623,8 +1060,84 @@
     </div>
   </div>
 
+  <div class="gallery__swiper">
+    <div class="gallery__wrapper">
+
+      <div class="swiper gallerySlide">
+        <div class="gallery__close">X</div>
+        <div class="swiper-wrapper" style="max-width: 900px; margin: 0 auto;">
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/1.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/2.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/3.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/4.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/5.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/6.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/7.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/8.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/9.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/10.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/11.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/12.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/13.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/14.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/15.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/16.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/17.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/18.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/19.jpg" alt="img">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper__image-gallery" src="../images/gallery/photogallery/20.jpg" alt="img">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="./js/swiper.js"></script>
+  <script src="./js/gallery-swiper.js"></script>
+  <script src="./js/question.js"></script>
   <script src="./js/burger.js"></script>
   <script src="./js/main.js"></script>
 </body>

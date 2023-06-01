@@ -1,5 +1,5 @@
 .active {
-
+    position: relative;
     // .active__list
 
     &__list {
@@ -11,6 +11,14 @@
         @media (max-width: 768px) {
             margin-top: 25px;
             grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__title {
+        @media (max-width: 580px) {
+            max-width: 200px;
+            margin: 0 auto;
+
         }
     }
 
