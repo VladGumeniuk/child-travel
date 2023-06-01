@@ -1,38 +1,34 @@
 .summer {
 
-    // .summer__list
-
-    &__list {
-        margin-top: 55px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 55px;
-
-        @media (max-width: 768px) {
-            margin-top: 25px;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-    }
-
     // .summer__card
 
     &__card {
+        margin-top: 55px;
+        display: flex;
+        background: #D5FFDD;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
+        border-radius: 30px 0px;
+
+        @media (max-width: 768px) {
+            margin-top: 25px;
+            display: block;
+        }
     }
+
+    // .summer__image
 
     &__image {
         img {
-            border-radius: 30px 30px 0 0;
-            width: 100%;
+            border-radius: 30px 0 0 0;
+            max-width: 100%;
         }
     }
 
     // .summer__content
 
     &__content {
-        padding: 10px;
+        flex: 0 0 50%;
+        padding: 20px;
         text-align: center;
     }
 
@@ -41,7 +37,7 @@
     &__title {
         margin-bottom: 10px;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 32px;
         line-height: 1.1;
 
         color: #252525;
@@ -51,20 +47,72 @@
 
     &__data {
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.1;
         color: #252525;
     }
 
     // .summer__price
 
-    &__price {
+    &__promo {
         margin-bottom: 10px;
         font-weight: 500;
-        font-size: 18px;
+        @include adaptiv-value('font-size', 20, 14);
         line-height: 1.2;
 
         color: #252525;
+
+        span {
+            text-decoration: underline;
+            color: #00BD4E;
+        }
+    }
+
+    // .summer__sum
+
+    &__sum {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 1.1;
+        color: #FE570B;
+    }
+
+    // .summer__oldsum
+
+    &__oldsum {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1;
+        text-decoration: line-through;
+
+        color: #9C9C9C;
+    }
+
+    // .summer__transfer
+
+    &__transfer {
+        margin-bottom: 10px;
+        margin-bottom: 20px;
+        @include adaptiv-value('font-size', 16, 10);
+        line-height: 1.1;
+        text-transform: uppercase;
+
+        color: #252525;
+    }
+
+    &__transfer-sum {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+
+        color: #FE570B;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+
+        color: #FE570B;
     }
 
     // .summer__submit
@@ -88,42 +136,5 @@
         font-size: 14px;
         line-height: 1.1;
         color: #252525;
-    }
-
-    // .summer__sum
-
-    &__sum {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 1.1;
-        color: #FE570B;
-    }
-
-    // .summer__oldsum
-
-    &__oldsum {
-        margin-bottom: 20px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        text-decoration: line-through;
-
-        color: #9C9C9C;
-    }
-
-    // .summer__transfer
-
-    &__transfer {
-        margin-bottom: 20px;
-        font-weight: 500;
-        font-size: 10px;
-        line-height: 1.1;
-        text-transform: uppercase;
-
-        color: #252525;
-
-        span {
-            color: #00BD4E;
-        }
     }
 }

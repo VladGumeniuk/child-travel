@@ -3,21 +3,21 @@
     // .offer__list
 
     &__list {
+        margin-top: 55px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 55px;
-        margin-top: 55px;
 
         @media (max-width: 768px) {
             margin-top: 25px;
             grid-template-columns: repeat(1, 1fr);
+            gap: 25px;
         }
     }
 
-    // .offer__cards
+    // .offer__card
 
-    &__cards {
-        text-align: center;
+    &__card {
         background: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 35px;
@@ -26,6 +26,8 @@
     // .offer__image
 
     &__image {
+        text-align: center;
+
         img {
             width: 100%;
             border-radius: 35px 35px 0 0;
@@ -35,6 +37,7 @@
     // .offer__content
 
     &__content {
+        text-align: center;
         padding: 15px;
     }
 
@@ -44,8 +47,8 @@
         margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.2;
-        color: $colorText;
+        line-height: 1.1;
+        color: #252525;
     }
 
     // .offer__text
@@ -53,6 +56,6 @@
     &__text {
         font-size: 14px;
         line-height: 1.1;
-        color: $colorText;
+        color: #252525;
     }
 }

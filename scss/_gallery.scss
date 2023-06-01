@@ -1,0 +1,22 @@
+.myGallery .swiper-wrapper {
+    margin-top: 55px;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+
+    @media (max-width: 768px) {
+        margin-top: 25px;
+    }
+}
+
+.gallery__rows01 {
+    margin-bottom: 15px;
+}
+
+// .gallery-item:nth-child(2n) {
+//     margin-top: 100px;
+// }
+
+.myGallery img {
+    max-width: 100%;
+    border-radius: 30px;
+}

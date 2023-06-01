@@ -21,20 +21,22 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 
-const mySwiper = new Swiper(".mySwiperOffer", {
+const mySwiper = new Swiper(".myGallery", {
     loop: true,
-    speed: 1500,
-    freeMode: true,
+    slidesPerView: 2,
+    spaceBetween: 30,
+    allowTouchMove: false,
+    speed: 5000,
     autoplay: {
-        delay: 2500,
+        delay: 0,
         disableOnInteraction: false,
     },
-    pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+    breakpoints: {
+        768: {
+            slidesPerView: 4,
+        },
+        992: {
+            slidesPerView: 2,
+        },
     },
 });
